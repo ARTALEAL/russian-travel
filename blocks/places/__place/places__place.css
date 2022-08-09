@@ -1,0 +1,23 @@
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.places__place:nth-child(2) {
+  margin-top: 80px;
+}
+
+.places__place:nth-child(3) {
+  margin-top: 80px;
+}
+
+.places__place:nth-child(4) {
+  margin-top: 80px;
+}
+
+.places__place:nth-child(5) {
+  margin-top: 80px;
+}

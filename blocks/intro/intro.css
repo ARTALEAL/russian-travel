@@ -3,3 +3,11 @@
   margin-top: 92px;
   margin-left: 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: calc(100% - 2*48px);
+    margin-top: 114px;
+    margin-left: 48px;
+  }
+}

@@ -3,3 +3,10 @@
   width: calc(100% - 96px);
 
 }
+
+@media screen and (max-width:1024px) {
+  .photo-grid {
+    max-width: 928px;
+  }
+
+}

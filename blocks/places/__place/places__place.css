@@ -21,3 +21,10 @@
 .places__place:nth-child(5) {
   margin-top: 80px;
 }
+
+@media screen and (width:1024px) {
+  .places__place {
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+}

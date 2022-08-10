@@ -6,8 +6,25 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .footer {
     max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    width: 100%;
+    margin: 88px 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 320px;
+    width: 100%;
+    flex-direction: column;
+    margin: 64px 16px 0 0 ;
   }
 }

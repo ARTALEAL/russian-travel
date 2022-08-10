@@ -10,3 +10,19 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    width: 100%;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    width: 100%;
+    margin-top: 64px;
+  }
+}

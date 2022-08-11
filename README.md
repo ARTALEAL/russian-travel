@@ -24,4 +24,4 @@
 
 **Ссылка на проект
 
-[Проект путешествие по России](artaleal.github.io/russian-travel/)
+[Проект путешествие по России](https://artaleal.github.io/russian-travel/)

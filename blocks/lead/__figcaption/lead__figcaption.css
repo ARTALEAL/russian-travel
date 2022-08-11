@@ -9,3 +9,14 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .lead__figcaption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__figcaption {
+    margin-left: 16px;
+  }
+}

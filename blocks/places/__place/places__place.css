@@ -36,13 +36,6 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .places__place {
-    grid-template-columns: 1fr;
-    row-gap: 48px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .places__place {
     grid-template-columns: 1fr;

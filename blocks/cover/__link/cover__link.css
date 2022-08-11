@@ -5,13 +5,12 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  max-width: 1148px;
-  max-height: 740px;
   height: 100%;
   width: 100%;
   text-decoration: none;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center;
 
 }
 

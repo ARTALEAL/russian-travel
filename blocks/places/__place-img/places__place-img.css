@@ -1,25 +1,23 @@
 .places__place-img {
   max-width: 460px;
-  max-height: 460px;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .places__place-img {
-    max-width: 440px;
-    max-height: 440px;
+    max-width: 42.96875vw;
+
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__place-img {
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 44.2708333vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__place-img {
     max-width: 320px;
-    max-height: 320px;
   }
 }

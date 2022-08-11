@@ -13,6 +13,13 @@
   z-index: 1;
 }
 
+
+@media screen and (max-width: 519px) {
+  .cover__title {
+    font-size: 13.846153846153847vw;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;

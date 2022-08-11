@@ -3,11 +3,19 @@
   font-family: 'inter';
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 104%;
   text-align: center;
   color: #fff;
   margin: auto;
   margin-top: 56px;
+  display: flex;
+
+}
+
+@media screen and (max-width: 692px) {
+  .lead__title {
+    font-size: 12vw;
+  }
 }
 
 @media screen and (max-width: 320px) {

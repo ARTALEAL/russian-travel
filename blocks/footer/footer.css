@@ -16,16 +16,20 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 720px;
-    width: 100%;
+    width: calc(100% - 2*24px);
     margin: 88px 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer {
+    width: calc(100% - 2*24px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 320px;
-    width: 100%;
     flex-direction: column;
     margin: 64px 16px 0 0;
   }

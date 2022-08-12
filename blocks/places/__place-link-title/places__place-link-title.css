@@ -1,4 +1,4 @@
-.places__place_link-title {
+.places__place-link-title {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__place_link-title {
+  .places__place-link-title {
     margin-left: 16px;
   }
 }

@@ -1,4 +1,4 @@
-.places__place_link {
+.places__place-link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,13 +8,13 @@
   color: #FFFFFF;
 }
 
-.places__place_link:hover {
+.places__place-link:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {
-  .places__place_link {
+  .places__place-link {
     margin-left: 16px;
   }
 }

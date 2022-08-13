@@ -1,12 +1,13 @@
 .places__place-title {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   color: #FFFFFF;
-  margin: 0;
-  padding-top: 10px;
 }
 
 @media screen and (max-width: 768px) {

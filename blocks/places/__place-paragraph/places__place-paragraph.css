@@ -3,3 +3,6 @@
 }
 
 
+.places__place-paragraph:last-child {
+  margin: 0;
+}

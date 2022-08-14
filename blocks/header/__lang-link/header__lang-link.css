@@ -5,6 +5,7 @@
   line-height: 24px;
   text-decoration: none;
   color: #fff;
+  transition: .3s ease-out;
 }
 
 .header__lang-link:hover {

@@ -6,6 +6,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  transition: .3s ease-out;
 }
 
 .places__place-link:hover {

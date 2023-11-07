@@ -35,6 +35,8 @@ let state = 'ru';
 
 const translate = () => {
   if (state === 'ru') {
+    ruButton.classList.add('header__lang-link_active');
+    enButton.classList.remove('header__lang-link_active');
     document.title = 'Путешествия по России';
     lead__title.textContent = 'Путешествия по России';
     lead__subtitle.textContent =
@@ -119,6 +121,8 @@ const translate = () => {
     travelsLink.textContent = 'Путешествия';
     copyRights.innerHTML = `<p class="footer__copyrights">&copy;2022. Александров Артем</p>`;
   } else {
+    ruButton.classList.remove('header__lang-link_active');
+    enButton.classList.add('header__lang-link_active');
     document.title = 'Traveling around Russia';
     lead__title.textContent = 'Traveling around Russia';
     lead__subtitle.textContent =
@@ -210,14 +214,19 @@ const ruButton = document.querySelector('#ru');
 ruButton.addEventListener('click', (e) => {
   e.preventDefault();
   state = 'ru';
-  ruButton.classList.add('header__lang-link_active');
-  enButton.classList.remove('header__lang-link_active');
+  localStorage.setItem('language', 'ru');
   translate();
 });
 enButton.addEventListener('click', (e) => {
   e.preventDefault();
   state = 'en';
-  ruButton.classList.remove('header__lang-link_active');
-  enButton.classList.add('header__lang-link_active');
+  localStorage.setItem('language', 'en');
   translate();
 });
+
+const checkLanguage = () => {
+  state = localStorage.getItem('language');
+  translate();
+};
+
+checkLanguage();

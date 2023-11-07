@@ -225,8 +225,10 @@ enButton.addEventListener('click', (e) => {
 });
 
 const checkLanguage = () => {
-  state = localStorage.getItem('language');
-  translate();
+  if (localStorage.getItem('language')) {
+    state = localStorage.getItem('language');
+    translate();
+  }
 };
 
 checkLanguage();
